@@ -1,0 +1,142 @@
+{
+    "appVersion": 1,
+    "appName": "HFDK",
+    "imageList": [{
+        "picHeight": 90,
+        "picWidth": 375,
+        "picUrl": "ht_top",
+        "picId": 1,
+        "activityAreas": [{
+            "xStart": 0,
+            "xEnd": 1,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "APP/Login",
+            "handleType": 0,
+            "updatePicVO": []
+        }]
+    },
+    {
+        "picHeight": 239,
+        "picWidth": 375,
+        "picUrl": "ht_center",
+        "picId": 2,
+        "activityAreas": [{
+            "xStart": 0,
+            "xEnd": 1,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "APP/Order",
+            "handleType": 0,
+            "updatePicVO": []
+        }]
+    },
+    {
+        "picHeight": 53,
+        "picWidth": 375,
+        "picUrl": "ht_oneMoney",
+        "picId": 3,
+        "activityAreas": [{
+            "xStart": 0,
+            "xEnd": 0.5,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "APP/Other",
+            "handleType": 3,
+            "updatePicVO": []
+        },
+        {
+            "xStart": 0.5,
+            "xEnd": 1,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "APP/Money",
+            "handleType": 1,
+            "updatePicVO": [
+                {
+                    "replaceIndex": 1,
+                    "replacePicId": 13,
+                    "selectText": "",
+                    "replaceType":1
+                },
+                {
+                    "replaceIndex": 2,
+                    "replacePicId": 14,
+                    "selectText": "1000",
+                    "replaceType":2
+                },
+                {
+                    "replaceIndex": 2,
+                    "replacePicId": 15,
+                    "selectText": "3000",
+                    "replaceType":2
+                },
+                {
+                    "replaceIndex": 2,
+                    "replacePicId": 16,
+                    "selectText": "6000",
+                    "replaceType":2
+                }
+            ]
+        }
+        ]
+    },
+    {
+        "picHeight": 53,
+        "picWidth": 375,
+        "picUrl": "ht_oneMonth",
+        "picId": 4,
+        "activityAreas": [{
+            "xStart": 0,
+            "xEnd": 0.5,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "APP/Other",
+            "handleType": 3,
+            "updatePicVO": []
+        },
+        {
+            "xStart": 0.5,
+            "xEnd": 1,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "APP/Week",
+            "handleType": 2,
+            "updatePicVO": [{
+                "replaceIndex": 3,
+                "replacePicId": 17,
+                "selectText": "一个月",
+                "replaceType":2
+            },
+            {
+                "replaceIndex": 3,
+                "replacePicId": 18,
+                "selectText": "三个月",
+                "replaceType":2
+            }, {
+                "replaceIndex": 3,
+                "replacePicId": 19,
+                "selectText": "六个月",
+                "replaceType":2
+            }
+            ]
+        }
+        ]
+    },
+    {
+        "picHeight": 228,
+        "picWidth": 375,
+        "picUrl": "ht_bottom",
+        "picId": 5,
+        "activityAreas": [{
+            "xStart": 0,
+            "xEnd": 0.5,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "APP/Login",
+            "handleType": 3,
+            "updatePicVO": []
+        }]
+    }
+    ]
+}

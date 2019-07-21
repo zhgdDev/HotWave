@@ -1,0 +1,272 @@
+{
+    "appVersion": 1,
+    "appName": "HFDK",
+    "imageList": [{
+        "picHeight": 90,
+        "picWidth": 375,
+        "picUrl": "ht_top",
+        "picId": 11,
+        "activityAreas": [{
+            "xStart": 0,
+            "xEnd": 1,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "",
+            "handleType": 0,
+            "updatePicVO": []
+        }]
+    },
+    {
+        "picHeight": 239,
+        "picWidth": 375,
+        "picUrl": "ht_center",
+        "picId": 12,
+        "activityAreas": [{
+            "xStart": 0,
+            "xEnd": 1,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "",
+            "handleType": 0,
+            "updatePicVO": []
+        }]
+    },
+    {
+        "picHeight": 239,
+        "picWidth": 375,
+        "picUrl": "ht_newCenter",
+        "picId": 13,
+        "activityAreas": [{
+            "xStart": 0,
+            "xEnd": 1,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "",
+            "handleType": 0,
+            "updatePicVO": []
+        }]
+    },
+    {
+        "picHeight": 53,
+        "picWidth": 375,
+        "picUrl": "ht_oneMoney",
+        "picId": 14,
+        "activityAreas": [{
+            "xStart": 0,
+            "xEnd": 0.5,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "APP/Other",
+            "handleType": 3,
+            "updatePicVO": [ ]
+        },
+        {
+            "xStart": 0.5,
+            "xEnd": 1,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "APP/SelectMoney",
+            "handleType": 1,
+            "updatePicVO": [{
+                "replaceIndex": 2,
+                "replacePicId": 14,
+                "selectText": "1000",
+                "replaceType":2
+            },
+            {
+                "replaceIndex": 2,
+                "replacePicId": 15,
+                "selectText": "3000",
+                "replaceType":2
+            },
+            {
+                "replaceIndex": 2,
+                "replacePicId": 16,
+                "selectText": "6000",
+                "replaceType":2
+            }
+            ]
+        }]
+    },
+    {
+        "picHeight": 53,
+        "picWidth": 375,
+        "picUrl": "ht_threeMoney",
+        "picId": 15,
+        "activityAreas": [{
+            "xStart": 0,
+            "xEnd": 1,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "APP/Other",
+            "handleType": 2,
+            "updatePicVO": [{
+                "replaceIndex": 2,
+                "replacePicId": 14,
+                "selectText": "1000",
+                "replaceType":2
+            },
+            {
+                "replaceIndex": 2,
+                "replacePicId": 15,
+                "selectText": "3000",
+                "replaceType":2
+            },
+            {
+                "replaceIndex": 2,
+                "replacePicId": 16,
+                "selectText": "6000",
+                "replaceType":2
+            }
+            ]
+        }]
+    },
+    {
+        "picHeight": 53,
+        "picWidth": 375,
+        "picUrl": "ht_sixMoney",
+        "picId": 16,
+        "activityAreas": [{
+            "xStart": 0,
+            "xEnd": 1,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "ht_sixMoney",
+            "handleType": 2,
+            "updatePicVO": [{
+                "replaceIndex": 2,
+                "replacePicId": 14,
+                "selectText": "1000",
+                "replaceType":2
+            },
+            {
+                "replaceIndex": 2,
+                "replacePicId": 15,
+                "selectText": "3000",
+                "replaceType":2
+            },
+            {
+                "replaceIndex": 2,
+                "replacePicId": 16,
+                "selectText": "6000",
+                "replaceType":2
+            }
+            ]
+        }]
+    },
+    {
+        "picHeight": 53,
+        "picWidth": 375,
+        "picUrl": "ht_oneMonth",
+        "picId": 17,
+        "activityAreas": [{
+            "xStart": 0,
+            "xEnd": 1,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "ht_oneMonth",
+            "handleType": 2,
+            "updatePicVO": [{
+                "replaceIndex": 3,
+                "replacePicId": 17,
+                "selectText": "1个月",
+                "replaceType":2
+            },
+            {
+                "replaceIndex": 3,
+                "replacePicId": 18,
+                "selectText": "3个月",
+                "replaceType":2
+            },
+            {
+                "replaceIndex": 3,
+                "replacePicId": 19,
+                "selectText": "6个月",
+                "replaceType":2
+            }
+            ]
+        }]
+    },
+    {
+        "picHeight": 53,
+        "picWidth": 375,
+        "picUrl": "ht_threeMonth",
+        "picId": 18,
+        "activityAreas": [{
+            "xStart": 0,
+            "xEnd": 1,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "ht_threeMonth",
+            "handleType": 2,
+            "updatePicVO": [{
+                "replaceIndex": 3,
+                "replacePicId": 17,
+                "selectText": "1个月",
+                "replaceType":2
+                
+            }, {
+                "replaceIndex": 3,
+                "replacePicId": 18,
+                "selectText": "3个月",
+                "replaceType":2
+            },
+            {
+                "replaceIndex": 3,
+                "replacePicId": 19,
+                "selectText": "6个月",
+                "replaceType":2
+            }
+            ]
+        }]
+    },
+    {
+        "picHeight": 53,
+        "picWidth": 375,
+        "picUrl": "ht_sixMonth",
+        "picId": 19,
+        "activityAreas": [{
+            "xStart": 0,
+            "xEnd": 1,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "ht_sixMonth",
+            "handleType": 2,
+            "updatePicVO": [{
+                "replaceIndex": 3,
+                "replacePicId": 17,
+                "selectText": "1个月",
+                "replaceType":2
+            }, {
+                "replaceIndex": 3,
+                "replacePicId": 18,
+                "selectText": "3个月",
+                "replaceType":2
+            },
+            {
+                "replaceIndex": 3,
+                "replacePicId": 19,
+                "selectText": "6个月",
+                "replaceType":2
+            }
+            ]
+        }]
+    },
+    {
+        "picHeight": 228,
+        "picWidth": 375,
+        "picUrl": "ht_bottom",
+        "picId": 20,
+        "activityAreas": [{
+            "xStart": 0,
+            "xEnd": 1,
+            "yStart": 0,
+            "yEnd": 1,
+            "jumpUrl": "APP/Login",
+            "handleType": 3,
+            "updatePicVO": []
+        }]
+    }
+    
+    ]
+}
